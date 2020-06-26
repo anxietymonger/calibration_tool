@@ -1,0 +1,8 @@
+*DS_Store
+.vscode
+input/*
+!.gitkeep
+output/*
+!.gitkeep
+build
+bin

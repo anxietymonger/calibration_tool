@@ -1,0 +1,7 @@
+{
+    "chess_size": {
+        "num_row": 6,
+        "num_col": 12
+    },
+    "grid_size": 80
+}
