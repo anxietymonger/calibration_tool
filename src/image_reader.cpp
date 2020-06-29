@@ -1,5 +1,3 @@
-#include <opencv2/imgcodecs.hpp>
-
 #include "image_reader.hpp"
 
 
