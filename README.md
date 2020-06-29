@@ -1,13 +1,15 @@
 1. put calibration images into `input/`
-1. put a `list.txt` which includes filename of all calibration images into `input/`
 1. edit `conf.json`
-1. build and run
+1. build
     ```
     mkdir build
     cd build
     cmake ..
     make
-    cd ../bin
-    ./calibration
+    cd ..
     ```
-1. `calibration_result.txt` and `camera.json` will be in `output/`, together with calibrated images
+1. run
+    ```
+    ./run.sh
+    ```
+1. `camera.json` will be in `output/`, together with calibrated images
