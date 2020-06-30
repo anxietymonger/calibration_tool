@@ -58,9 +58,9 @@ int main(int argc, char* argv[]) {
         json11::Json::array {0, 0, 1},
     };
     auto camera_extrinsic = json11::Json::array {
-        json11::Json::array {0, 0, 1},
-        json11::Json::array {0, 1, 0},
-        json11::Json::array {0, 0, 1},
+        json11::Json::array {1, 0, 0, 0},
+        json11::Json::array {0, 1, 0, 0},
+        json11::Json::array {0, 0, 1, 0},
     };
     auto camera_json = json11::Json::object {
         {"ProjectMatrix" , project_matrix},
